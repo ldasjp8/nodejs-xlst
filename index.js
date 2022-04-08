@@ -19,7 +19,7 @@ const xmlString = `
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>テスト</title>
+            <title>Sample</title>
          </titleStmt>
       </fileDesc>
    </teiHeader>
@@ -64,5 +64,4 @@ install(
 );
 const output = xsltProcess(xmlParse(xmlString), xmlParse(xsltString));
 
-// 書き込み
 fs.writeFileSync("output.html", output);
