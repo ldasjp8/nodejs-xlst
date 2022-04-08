@@ -1,6 +1,6 @@
-# Node.js で XLST を実行するサンプルリポジトリ
+# Node.js で XSLT を実行するサンプルリポジトリ
 
-Sample repository for running XLST in Node.js
+Sample repository for running XSLT in Node.js
 
 ## Getting started
 
